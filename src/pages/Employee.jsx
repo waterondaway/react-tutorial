@@ -1,7 +1,19 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function Employee() {
   return (
+    <div>
+      <div class='pl-2'>
+      <Link to="/">
+    <button class="flex items-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md shadow-md transition-all duration-300">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+      Back
+    </button>
+  </Link>
+      </div>
     <div class='justify-items-center mt-5'>
       <p class='text-2xl font-bold text-black'>Employee Management System</p>
       <label class="relative block mt-3 mb-3">
@@ -38,10 +50,8 @@ function Employee() {
         </tr>
       </tbody>
     </table>
-    <button type="button" class="bg-indigo-500" disabled>
-    <svg class="motion-reduce:hidden animate-spin" viewBox="0 0 24 24"></svg>
-    Processing...
-  </button>
+
+    </div>
     </div>
   );
 }

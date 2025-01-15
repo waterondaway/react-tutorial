@@ -1,9 +1,8 @@
-import './App.css'
 import React, { useEffect, useState } from 'react';
-import BackendConnection from './components/BackendConnection'
-import EmployeeLogo from './assets/1.png'
-import MarketingLogo from './assets/2.png'
-import ReportingLogo from './assets/3.png'
+import BackendConnection from '../components/BackendConnection'
+import EmployeeLogo from '../assets/1.png'
+import MarketingLogo from '../assets/2.png'
+import ReportingLogo from '../assets/3.png'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 function App() {
 

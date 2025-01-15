@@ -2,11 +2,11 @@ import './App.css'
 import React, { useEffect, useState } from 'react';
 import BackendConnection from './components/BackendConnection'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Marketing from './Marketing'
-import Home from './Home'
-import Investment from './Investment';
-import Employee from './Employee';
-import Reporting from './Reporting';
+import Marketing from './pages/Marketing'
+import Home from './pages/Home'
+import Investment from './pages/Investment';
+import Employee from './pages/Employee';
+import Reporting from './pages/Reporting';
 function App() {
 
   return (
