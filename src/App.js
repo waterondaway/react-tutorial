@@ -1,9 +1,13 @@
 import React from 'react'
 import './App.css'
+import Button from '@mui/material/Button';
 function App() {
+  function showAlert() {
+    window.alert('Hi')
+  }
   return (
     <>
-      <div id="header-thumbnil">Hello World!</div>
+      <Button variant="contained" style={{ margin: 5 }} onClick={() => showAlert()}>Alert Now</Button>
     </>
   )
 }
